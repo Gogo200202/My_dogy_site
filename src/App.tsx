@@ -12,11 +12,11 @@ function App() {
   useEffect(  () => {
    
     async function getData() {
-      let result=await fetch("https://dog.ceo/api/breeds/image/random");
-      let data=await result.json();
+      //let result=await fetch("https://dog.ceo/api/breeds/image/random");
+     // let data=await result.json();
       //console.log(data.message)
       
-          setIMG(data.message)
+          setIMG("dogy")
     
     
     }
